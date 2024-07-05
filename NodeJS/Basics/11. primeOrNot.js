@@ -35,9 +35,11 @@ function checkPrime(num) {
         }
     }
     if (flag) {
-        console.log(num, "is not a prime number");
+        // console.log(num, "is not a prime number");
+        return num + " is not a prime number";
     } else {
-        console.log(num, "is a prime number");
+        // console.log(num, "is a prime number");
+        return num + " is a prime number";
     }
 }
 
@@ -58,9 +60,11 @@ function checkPrime(num) {
     console.log(num,"is a prime number");
 }
  */
-checkPrime(20);
-checkPrime(21);
-checkPrime(23);
-checkPrime(27);
-checkPrime(7);
-checkPrime(8);
+// checkPrime(20);
+// checkPrime(21);
+// checkPrime(23);
+// checkPrime(27);
+// checkPrime(7);
+// checkPrime(8);
+
+module.exports = checkPrime;
